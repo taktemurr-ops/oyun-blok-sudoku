@@ -1,0 +1,30 @@
+name: oyun_blok_sudoku
+description: "Blok Sudoku – 9x9 tahta, satır/sütun/3x3 kutu temizleme. Blok Oyunları merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 9ecb1685661e81cee4c641f247afade9bd9f6f0a
+  game_001_block_puzzle_master:
+    git:
+      url: https://github.com/taktemurr-ops/game-001-block-puzzle-master
+      ref: 2f5d2d8e9c318932b359b66e61a3d31831ea3d06
+
+dependency_overrides:
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 9ecb1685661e81cee4c641f247afade9bd9f6f0a
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
