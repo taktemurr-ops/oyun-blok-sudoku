@@ -80,7 +80,7 @@ final blokSudokuConfig = GameConfig(
       'Lấp đầy hàng, cột và ô 3x3!',
       'Punuin ang hanay, kolum, at 3x3 na kahon!',
     ],
-  seedColor: const Color(0xFF00897B),
+  seedColor: const Color(0xFF2D6E8E),
   icon: Icons.grid_on_rounded,
   rules: BlockRules(sudoku: true, id: blokSudokuId),
   buildPlay: (ctx) => BlockView(ctx: ctx),
