@@ -33,7 +33,7 @@ final blokSudokuConfig = GameConfig(
       'Bloksudoku',
       'Klossudoku',
       'Palikkasudoku',
-      'ブロック数独',
+      'ブロックナンバープレース',
       '블록 스도쿠',
       '方块数独',
       'ब्लॉक सुडोकू',
