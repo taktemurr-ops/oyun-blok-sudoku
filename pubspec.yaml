@@ -12,17 +12,17 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: dd4608c1dc7ce8ec0fb68c5a8878184d5d5e081f
+      ref: 8cb935c63a86ca3e5fb38758edd5bb8ec44dccdd
   game_001_block_puzzle_master:
     git:
       url: https://github.com/taktemurr-ops/game-001-block-puzzle-master
-      ref: 998bdf9511d629b281f78ba8284368de968dae98
+      ref: b4ba0905f80b604879db55a10ccea25e66ae1071
 
 dependency_overrides:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: dd4608c1dc7ce8ec0fb68c5a8878184d5d5e081f
+      ref: 8cb935c63a86ca3e5fb38758edd5bb8ec44dccdd
 
 dev_dependencies:
   flutter_test:
